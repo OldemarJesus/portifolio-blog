@@ -1,0 +1,7 @@
+services:
+  blog:
+    build: . # Image name from the previous Dockerfile build
+    container_name: blog # Optional: name your container
+    ports:
+      - "8080:80" # Map port 80 of the host to port 80 of the container
+    restart: unless-stopped # Ensure the container restarts on failure or system reboot
