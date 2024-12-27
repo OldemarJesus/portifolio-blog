@@ -18,6 +18,6 @@ podman compose up -d
 
 In case you want to run a most recent builded image, you can simply:
 
-````bash
+```bash
 podman run -d -p 8080:80 ghcr.io/oldemarjesus/portifolio-blog:main
 ```
