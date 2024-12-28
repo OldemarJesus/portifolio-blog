@@ -1,6 +1,6 @@
 <template>
   <v-container class="fill-height">
-    <v-responsive class="align-centerfill-height mx-auto" max-width="900">
+    <v-responsive class="align-centerfill-height mx-auto">
 
       <div class="text-center">
         <h1 class="text-h2 font-weight-bold align-center d-flex justify-center mb-2">
@@ -8,7 +8,7 @@
           About Me
         </h1>
 
-        <p class="text-h6">
+        <p class="text-sm-center text-justify text-h6">
           Oldemar de Jesus Gonçalves is a DevOps Engineer at IT People Innovation in Lisbon, Portugal. He has experience
           in managing applications, deploying, and developing highly scalable solutions.
         </p>
