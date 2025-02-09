@@ -1,4 +1,9 @@
 :80 {
     root * /srv
     file_server
+    encode gzip zstd
+    log {
+        output stdout
+        format console
+    }
 }
